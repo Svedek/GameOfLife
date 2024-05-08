@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b30347amj6rus"]
+
+[ext_resource type="Script" path="res://GameOfLife.gd" id="1_fuf87"]
+
+[node name="GameOfLife" type="TileMap"]
+format = 2
+script = ExtResource("1_fuf87")
+
+[node name="Camera2D" type="Camera2D" parent="."]
